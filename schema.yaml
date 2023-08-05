@@ -1,0 +1,16 @@
+COLUMNS:
+  V2: float64
+  V4: float64
+  V11: float64
+  V19: float64
+  V!0: float64
+  V12: float64
+  V!4: float64
+  Time: float64
+  Amount: float64
+ 
+
+
+TARGET_COLUMN:
+  name: Class
+  
