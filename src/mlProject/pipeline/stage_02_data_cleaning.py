@@ -1,5 +1,5 @@
 from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_ingestion import DataCleaning
+from mlProject.components.data_cleaning import DataCleaning
 from mlProject import logger
 
 
