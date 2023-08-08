@@ -6,3 +6,9 @@ data_ingestion:
   source_URL: https://github.com/Godwin45/FraudApp/raw/main/creditcard.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+data_cleaning:
+  root_dir: artifacts/data_cleaning
+  unzip_data_dir: artifacts/data_ingestion/creditcard.csv
+  cleaned_data: artifacts/data_cleaned/new_df.csv
+

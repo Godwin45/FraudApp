@@ -1,7 +1,7 @@
 from mlProject.constants import *
 from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import (DataIngestionConfig
-                                        
+from mlProject.entity.config_entity import (DataIngestionConfig,
+                                            DataCleaningConfig
                                             )
 
 class ConfigurationManager:
@@ -18,7 +18,7 @@ class ConfigurationManager:
         create_directories([self.config.artifacts_root])
 
 
-    
+
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
 
@@ -32,3 +32,16 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+    def get_cleaned_data_config(self) -> DataCleaningConfig:
+        config = self.config.data_cleaning
+
+        create_directories([config.root_dir])
+
+        data_cleaning_config = DataCleaningConfig(
+            root_dir=config.root_dir,
+            cleaned_data=config.cleaned_data,
+            unzip_data_dir = config.unzip_data_dir,
+        )
+
+        return data_cleaning_config
