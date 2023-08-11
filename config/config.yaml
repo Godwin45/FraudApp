@@ -12,3 +12,7 @@ data_cleaning:
   unzip_data_dir: artifacts/data_ingestion/creditcard.csv
   cleaned_data: artifacts/data_cleaned/new_df.csv
 
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_cleaning/new_df.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
