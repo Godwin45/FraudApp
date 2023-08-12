@@ -7,6 +7,7 @@ from mlProject.entity.config_entity import ModelTrainerConfig
 import pandas as pd
 from mlProject import logger
 import joblib
+# Classifier Libraries
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
@@ -34,9 +35,9 @@ class ModelTrainer:
         y_test = test_y.values.ravel()
 
         classifiers = {
-            "LogisiticRegression": LogisticRegression(),
+            "LogisticRegression": LogisticRegression(),
             "KNearest": KNeighborsClassifier(),
-            "Support Vector Classifier": SVC(),
+            "SupportVectorClassifier": SVC(),
             "DecisionTreeClassifier": DecisionTreeClassifier()
         }
 
