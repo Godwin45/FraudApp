@@ -10,11 +10,11 @@ COLUMNS:
   V7: float64
   V8: float64
   V9: float64
-  V10: float64  # Corrected key from 'V!0'
+  V10: float64  
   V11: float64
   V12: float64
   V13: float64
-  V14: float64  # Corrected key from 'V!4'
+  V14: float64 
   V15: float64
   V16: float64
   V17: float64
