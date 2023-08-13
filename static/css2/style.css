@@ -44,7 +44,7 @@ body {
 	margin-bottom: 55px;
 }
 .form-v9-content .form-detail h2::after {
-	background: #fff;
+	background: #282727;
 	width: 73px;
 	height: 3px;
 	content: "";
@@ -78,7 +78,7 @@ body {
 .form-v9-content .form-detail input {
 	width: 100%;
     padding: 14.5px 0px 14.5px 30px;
-    border: 2px solid #ccc;
+    border: 2px solid #1a1818;
     appearance: unset;
     -moz-appearance: unset;
     -webkit-appearance: unset;
@@ -97,7 +97,7 @@ body {
 	font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    background: rgba(255, 255, 255, 0.2)
+    background: rgba(3, 2, 2, 0.2)
 }
 .form-v9-content .form-detail input:focus {
 	border: 2px solid #999;

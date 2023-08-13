@@ -12,5 +12,9 @@ class PredictionPipeline:
     
     def predict(self, data):
         prediction = self.model.predict(data)
-
-        return prediction
+        if prediction == 0:
+            return "No Fraud"
+        elif prediction == 1:
+            return "Fraud"
+        else:
+            return "Unknown"  # Handle other cases if needed
