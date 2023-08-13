@@ -38,6 +38,31 @@ Our app is containerized using Docker, allowing for consistent and seamless depl
 ### AWS Deployment
 The app is deployed on Amazon Web Services (AWS) to ensure scalability, reliability, and global accessibility. AWS provides the foundation for robust and high-performance deployment of our app.
 
+## MLflow Integration
+
+We've integrated MLflow into our project to streamline the machine learning workflow and enhance transparency in model development and deployment. MLflow provides the following benefits:
+
+### Experiment Tracking
+
+With MLflow's experiment tracking, we can easily keep track of different iterations of our model. It records all the parameters, metrics, and artifacts associated with each run, allowing us to compare results and make data-driven decisions.
+
+### Model Versioning
+
+MLflow enables us to version our trained machine learning models. This versioning ensures that we can always reproduce and deploy the exact model that was used during a specific run. It enhances model management and collaboration among team members.
+
+### Reproducibility
+
+By using MLflow, we can recreate the exact environment used during model training. This ensures reproducibility, making it possible to revisit and re-run past experiments, troubleshoot issues, and fine-tune models with ease.
+
+### Model Serving
+
+MLflow allows us to deploy models as RESTful APIs or batch processing jobs with just a few lines of code. This feature facilitates model deployment and integration with other applications.
+
+### Centralized Tracking and Management
+
+MLflow provides a centralized interface to track experiments, models, and their associated metadata. It simplifies collaboration among data scientists and engineers, enhancing the overall efficiency of the project.
+
+
 ## Getting Started
 
 To experience the power of our Fraud Detection App, follow these simple steps:
