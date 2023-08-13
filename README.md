@@ -1,6 +1,6 @@
 # Fraud Detection App: End-to-End Machine Learning Project
 
-![Fraud Detection](<img width="947" alt="bank1" src="https://github.com/Godwin45/FraudApp/assets/71969710/636c89e0-05af-42c2-b71c-a3ea13821a95">)
+<img width="947" alt="bank1" src="https://github.com/Godwin45/FraudApp/assets/71969710/636c89e0-05af-42c2-b71c-a3ea13821a95">
 
 ## Table of Contents
 - [Overview](#overview)
@@ -16,7 +16,7 @@
 
 Welcome to our state-of-the-art Fraud Detection App! In today's digital landscape, fraudulent activities in banking transactions are on the rise. Our app is designed to combat this issue by leveraging advanced machine learning techniques to predict potential fraudulent transactions. With an intuitive user interface, comprehensive machine learning pipeline, and robust deployment on AWS, this project covers every aspect of the machine learning lifecycle.
 
-![App Screenshot](<img width="763" alt="bank3" src="https://github.com/Godwin45/FraudApp/assets/71969710/dd0fc47c-dc26-46e8-86dd-e3e20ca06e1d">)
+<img width="763" alt="bank3" src="https://github.com/Godwin45/FraudApp/assets/71969710/dd0fc47c-dc26-46e8-86dd-e3e20ca06e1d">
 
 ## Key Features
 
@@ -70,10 +70,10 @@ MLflow provides a centralized interface to track experiments, models, and their 
 
 To experience the power of our Fraud Detection App, follow these simple steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/fraud-detection-app.git`
+1. Clone the repository: `git clone https://github.com/Godwin45/FraudApp.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the app: `python app.py`
-4. Access the app in your browser at `http://localhost:5000`
+4. Access the app in your browser at `http://localhost:8000`
 
 ## Project Structure
 
@@ -87,8 +87,7 @@ To experience the power of our Fraud Detection App, follow these simple steps:
 
 ## Deployment
 
-Our Fraud Detection App has been deployed using Docker and AWS, ensuring optimal performance, scalability, and reliability. You can access the live app at [https://fraud-detection-app.example.com](https://fraud-detection-app.example.com).
-
+Our Fraud Detection App has been deployed using Docker and AWS, ensuring optimal performance, scalability, and reliability. You can access the live app at [https://fraud-detection-app.example.com]
 ## Monitoring and Alerts
 
 We take monitoring seriously. Our monitoring system continuously evaluates the model's performance and sends alerts in case of any deviations. This ensures that our predictions remain accurate and reliable over time.
