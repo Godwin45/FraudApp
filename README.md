@@ -1,6 +1,6 @@
 # Fraud Detection App: End-to-End Machine Learning Project
 
-![Fraud Detection](images/fraud_detection.jpg)
+![Fraud Detection](<img width="947" alt="bank1" src="https://github.com/Godwin45/FraudApp/assets/71969710/636c89e0-05af-42c2-b71c-a3ea13821a95">)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -16,7 +16,7 @@
 
 Welcome to our state-of-the-art Fraud Detection App! In today's digital landscape, fraudulent activities in banking transactions are on the rise. Our app is designed to combat this issue by leveraging advanced machine learning techniques to predict potential fraudulent transactions. With an intuitive user interface, comprehensive machine learning pipeline, and robust deployment on AWS, this project covers every aspect of the machine learning lifecycle.
 
-![App Screenshot](images/app_screenshot.jpg)
+![App Screenshot](<img width="763" alt="bank3" src="https://github.com/Godwin45/FraudApp/assets/71969710/dd0fc47c-dc26-46e8-86dd-e3e20ca06e1d">)
 
 ## Key Features
 
@@ -31,6 +31,9 @@ The app incorporates a well-structured machine learning pipeline. From data prep
 
 ### MLflow Integration
 We use MLflow to manage the end-to-end machine learning workflow. Experiment tracking, model versioning, and reproducibility are seamlessly handled using MLflow, ensuring transparency and traceability.
+
+https://github.com/Godwin45/FraudApp/assets/71969710/728229b2-a7ec-44d8-9564-f1bc78dfc0e7
+
 
 ### Dockerized Deployment
 Our app is containerized using Docker, allowing for consistent and seamless deployment across various environments. Dockerization enhances scalability and simplifies deployment for both developers and operations teams.
@@ -100,4 +103,4 @@ For inquiries, feedback, or collaboration opportunities, please don't hesitate t
 
 Join us in revolutionizing fraud detection with cutting-edge machine learning technology!
 
-![App Screenshot](images/app_screenshot.jpg)
+<!-- ![App Screenshot](images/app_screenshot.jpg) -->
